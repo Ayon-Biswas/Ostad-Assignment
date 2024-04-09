@@ -18,17 +18,17 @@
      <div class="form-group">
           <select class="form-select mt-4 mb-3" id="operation">
             <option selected>Choose the Desired Operation</option>
-            <option value="1" id="add">addition(+)</option>
-            <option value="2" id="subtract">Subtraction(-)</option>
-            <option value="3" id="multiply">Multiplication(*)</option>
-            <option value="4" id="divide">Division(/)</option>
+            <option value="add">addition(+)</option>
+            <option value="subtract" >Subtraction(-)</option>
+            <option value="multiply">Multiplication(*)</option>
+            <option value="divide">Division(/)</option>
           </select>
      </div>
     <div class="form-group">
      <label for="num2"class="form-label">Number 2</label>
      <input type="number" class="form-control" id="num2">   
     </div>
-     <button type="button" class="mt-4 btn btn-primary">calculate</button>
+     <button type="button" class="mt-4 btn btn-primary" onclick="calculate()">calculate</button>
      <div class="d-flex" id="result"></div>
     </div>
    </div>
